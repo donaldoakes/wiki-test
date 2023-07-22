@@ -1,0 +1,16 @@
+on:
+  gollum:
+  workflow_dispatch:
+
+jobs:
+  wiki:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo "Hello, Gollum"
+
+
+
+
+
+
